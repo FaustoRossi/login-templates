@@ -9,7 +9,7 @@ import Brand2 from "../assets/Brand2.png";
 function Login3() {
 	return (
 		<AnimatedPage>
-			<div className="relative w-full h-screen bg-zinc-900/90">
+			<div className="relative w-full h-screen bg-zinc-900/60">
 				<img
 					className="absolute w-full h-full object-cover mix-blend-overlay"
 					src={loginImg}

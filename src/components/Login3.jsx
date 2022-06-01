@@ -7,9 +7,9 @@ import AnimatedPage from "./AnimatedPage";
 function Login3() {
 	return (
 		<AnimatedPage>
-			<div className="w-full h-screen flex">
+			<div className="w-full h-screen flex bg-gray-200/90">
 				<div className="grid grid-cols-1 md:grid-cols-2 m-auto h-[550px] rounded-md shadow-md shadow-green-600 sm:max-w-[900px]">
-					<div className="w-full h-[550px] hidden md:block">
+					<div className="w-full h-[550px]  hidden md:block">
 						<img className="w-full h-full" src={trees} alt="/" />
 					</div>
 					<div className="p-4 flex flex-col justify-around">
@@ -17,9 +17,9 @@ function Login3() {
 							<div className="w-[450px]   flex justify-center">
 								<img className="h-[250px] " src={Brand3} alt="" />
 							</div>
-							<div>
+							<div className="flex flex-col">
 								<input
-									className="border p-2 mr-2 rounded-md"
+									className="border mb-2  p-2 mr-2 rounded-md"
 									type="text"
 									placeholder="Username"
 								/>
