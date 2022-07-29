@@ -4,4 +4,4 @@ Three Login Templates designs, used Tailwind Css. Responsive, mobile first. Gene
 
 Also implemented react-router and some animations from framer-motion
 
->Link: https://app.netlify.com/sites/login-templates/overview
+>Link: https://login-templates.netlify.app/
